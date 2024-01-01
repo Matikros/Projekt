@@ -1,0 +1,188 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+/* Sektor 1 */
+#Sec_1 {
+    width: 100%;
+    height: 8vb;
+    border: 1px black solid solid;
+    background-color: darkslategrey;
+}
+
+#Sec_1 h1 {
+    color: white;
+    text-align:center;
+    font-size: larger;
+    height: 50%;
+    width: fit-content;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+#Sec_1 input {
+    background-color: silver;
+    text-align: center;
+    font-size: large;
+    color: white;
+    height: 50%;
+    width: fit-content;
+    margin-top:  10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 5px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    -webkit-text-stroke: 1px black;
+}
+
+#Sec_1 input:focus {
+    border-width: 3px;
+}
+
+/* Sektor 2 */
+
+#Sec_2 {
+    width: 80%;
+    height: 88vb;
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    float: left;
+}
+
+#Sec_2 div {
+    display: flex;
+    flex-direction: row;
+}
+
+#Sec_2 div h3{
+    width: 20%;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px black solid; 
+    text-align: center;
+    min-width: fit-content;
+}
+
+#Sec_2 div h4 {
+    width: 20vb;
+    height: min-content;
+    margin: 5px 5px 5px 5px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px black solid; 
+    text-align: center;
+    font-size: larger;
+}
+
+#Sec_2 div h5 {
+    width: 35vb;
+    height: min-content;
+    margin: 5px 5px 5px 5px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px black solid; 
+    font-size: large;
+}
+
+#Extra {
+    width: min-content;
+    height: min-content;
+    margin: 5px 5px 5px 5px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px black solid; 
+    font-size: large;
+    white-space: no-wrap;
+}
+
+#Sec_2 div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    border: 1px black solid;
+}
+
+#flaga:hover {
+    border: 3px black solid;
+    border-radius: 15px;
+}
+
+#Sec_2 div ul {
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 1px black solid; 
+    text-align: center;
+    width: 18vb;
+    margin: 5px 5px 5px 5px;
+    list-style-type:square;
+}
+
+#Sec_2 div li {
+    font-size: small;
+    height: min-content;
+}
+
+/* Sektor 2a */
+
+#Sec_2a {
+    width: 20%;
+    height: 88vb;
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    float: right;
+}
+
+#Sec_2a div button,h4 {
+    width: 75%;
+    height: min-content;
+    margin: 5px 5px 5px 5px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    border: 1px black solid;
+    float: left;
+}
+
+#Sec_2a div img {
+    width: 10%;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px black solid;
+    float: right;
+}
+
+/* Sektor 3 */
+
+#Sec_3 {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 4vb;
+    float: left;
+}
+
+#Sec_3 h2 {
+    min-width: fit-content;
+    min-height: fit-content;
+    text-align: left;
+    font-size: larger;
+    color: white;
+    margin-left: 5px;
+}
